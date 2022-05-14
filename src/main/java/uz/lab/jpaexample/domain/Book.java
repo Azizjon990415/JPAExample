@@ -29,4 +29,13 @@ public class Book {
     private String date;
     @Column
     private String writer;
+
+    public Book(String name, String description, String pictureLink, String title, String date, String writer) {
+        this.name = name;
+        this.description = description;
+        this.pictureLink = pictureLink;
+        this.title = title;
+        this.date = date;
+        this.writer = writer;
+    }
 }
